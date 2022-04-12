@@ -8,7 +8,7 @@ public class CircleMainTest {
 		// area() 메소드는 접근지정자가 private으로 지정 되어서
 		// CircleMainTest클래스에서 접근 불가하다
 		System.out.println("원의 둘레는 " + cp.round(10));
-		//round()
+		//round() 메소드는 접근지정자가 protected로 지정되어 상속 관계에 있는 클래스 또는 동일한 패키지 속 클래스에서 접근 가능
 		
 	}
 }
